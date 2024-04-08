@@ -16,15 +16,23 @@ const NavLink = () => {
       name: "Customers",
     },
   ];
-  console.log(pathName);
   return (
-    <div style={{ display: "block" }}>
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "space-between",
+        alignContent: "center",
+      }}
+    >
       {links.map((link) => {
         return (
           <>
             <Link
-              style={{ display: "block" }}
-              className={pathName === link.url ? "bg-sky-100 text-blue-600" : "bg-inherit"}
+              className={
+                pathName === link.url
+                  ? "bg-sky-100 text-blue-600"
+                  : "bg-inherit"
+              }
               href={link.url}
             >
               {link.name}
