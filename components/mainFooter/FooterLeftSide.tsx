@@ -7,7 +7,7 @@ const FooterLeftSide = () => {
       <div>Sign up here for new events and offers</div>
       <div>
         <div>
-          <input placeholder="Your email" /> <button>Send Now</button>
+          <input placeholder="Your email ss" /> <button>Send Now</button>
         </div>
       </div>
       <div>instagram twitter</div>
